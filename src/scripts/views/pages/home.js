@@ -1,15 +1,25 @@
 import DicodingDB from '../../data/dicodingdb';
+import { createRestaurantItemTemplate } from '../templates/template-creator';
 
 const Home = {
   async render() {
     return `
-          <h2>Home Page</h2>
-        `;
+    <section class="headline" id="headline">
+      <h2>RestoMantap Memberikan List Restoran Termantap Se-Indonesia</h2>
+    </section>
+
+    <section class="content" id="list">
+      
+    </section>
+    `;
   },
 
   async afterRender() {
-    const restaurant = await DicodingDB.HomePage();
-    console.log(restaurant);
+    const restaurants = await DicodingDB.HomePage();
+    const restaurantContainer = document.querySelector('#list');
+    restaurants.forEach((restaurant) => {
+      restaurantContainer.innerHTML += createRestaurantItemTemplate(restaurant);
+    });
   },
 };
 

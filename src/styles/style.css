@@ -149,10 +149,6 @@ CONTENT
     overflow: hidden;
 }
 
-.content-paragraph {
-    padding: 16px;
-}
-
 .content-thumbnail {
     width: 100%;
     height: 270px;
@@ -161,6 +157,7 @@ CONTENT
 }
 
 .content-rating {
+    margin-top: 5px;
     display: inline;
     font-size: 19px;
     font-weight: 700;
@@ -168,8 +165,7 @@ CONTENT
 }
 
 .content-location {
-    display: inline;
-    margin-left: 10px;
+    display: block;
     font-size: 19px;
     font-weight: 700;
     color: #000000;
