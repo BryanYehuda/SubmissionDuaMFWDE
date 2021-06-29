@@ -1,3 +1,5 @@
+import DicodingDB from '../../data/dicodingdb';
+
 const Home = {
   async render() {
     return `
@@ -6,7 +8,8 @@ const Home = {
   },
 
   async afterRender() {
-    // Fungsi ini akan dipanggil setelah render()
+    const restaurant = await DicodingDB.HomePage();
+    console.log(restaurant);
   },
 };
 
