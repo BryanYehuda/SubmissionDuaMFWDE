@@ -199,6 +199,6 @@
 
 @media screen and (min-width: 1250px) {
     .wrapper {
-        grid-template-columns: 1fr 4fr 2fr 2fr 2fr;
+        grid-template-columns: 1fr 12fr 2fr 2fr 2fr;
     }
 }
