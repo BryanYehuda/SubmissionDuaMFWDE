@@ -79,8 +79,17 @@
     .content-location {
         font-size: 22px;
     }
+    .content-rating-detail {
+        font-size: 22px;
+    }
+    .content-location-detail {
+        font-size: 22px;
+    }
     .content-title {
         font-size: 27px;
+    }
+    .content-title-detail {
+        font-size: 35px;
     }
     .content-description {
         font-size: 16px;
@@ -90,6 +99,9 @@
     }
     h2 {
         font-size: 32px;
+    }
+    h3 {
+        font-size: 25px;
     }
     .btn:link,
     .btn:visited,
@@ -119,6 +131,9 @@
         font-size: 28px;
         margin-left: -10px;
     }
+    .content-title-detail {
+        font-size: 45px;
+    }
     .content-description {
         font-size: 17px;
     }
@@ -141,14 +156,26 @@
     h2 {
         font-size: 33px;
     }
+    h3 {
+        font-size: 27px;
+    }
     .content-rating {
         font-size: 17px;
     }
     .content-location {
         font-size: 17px;
     }
+    .content-rating-detail {
+        font-size: 23px;
+    }
+    .content-location-detail {
+        font-size: 23px;
+    }
     .content-title {
         font-size: 25px;
+    }
+    .content-title-detail {
+        font-size: 50px;
     }
     .content-description {
         font-size: 15px;
@@ -165,6 +192,12 @@
     .content-location {
         font-size: 19px;
     }
+    .content-rating-detail {
+        font-size: 24px;
+    }
+    .content-location-detail {
+        font-size: 24px;
+    }
 }
 
 @media screen and (min-width: 900px) {
@@ -178,12 +211,21 @@
     h2 {
         font-size: 34px;
     }
+    h3 {
+        font-size: 32px;
+    }
     .content-rating {
         font-size: 16px;
     }
     .content-location {
         display: block;
         font-size: 16px;
+    }
+    .content-rating-detail {
+        font-size: 26px;
+    }
+    .content-location-detail {
+        font-size: 26px;
     }
     .content-title {
         font-size: 24px;
@@ -204,6 +246,13 @@
         display: block;
         font-size: 18px;
     }
+    .content-rating-detail {
+        font-size: 28px;
+    }
+    .content-location-detail {
+        display: block;
+        font-size: 28px;
+    }
     .content-title {
         font-size: 26px;
     }
@@ -221,6 +270,12 @@
     }
     .content-location {
         font-size: 20px;
+    }
+    .content-rating-detail {
+        font-size: 29px;
+    }
+    .content-location-detail {
+        font-size: 29px;
     }
     .content-title {
         font-size: 26px;
