@@ -9,7 +9,7 @@ const createRestaurantDetailTemplate = (restaurants) => `
 </div>
 <div class="restaurant-overview">
 <h3>Description</h3>
-<p>${restaurants.description}</p>
+<div class="content-description"><p>${restaurants.description}</p></div>
 `;
 
 const createRestaurantItemTemplate = (restaurants) => `
@@ -20,7 +20,7 @@ const createRestaurantItemTemplate = (restaurants) => `
         <div class="content-rating">Rating : ${restaurants.rating}</div>
         <div class="content-location">Lokasi : ${restaurants.city}</div>
     </p>
-    <h3 class="content-title"><a href="${`/#/detail/${restaurants.id}`}">${restaurants.name} <br> (Klik untuk detail)</a></h3>
+    <div class="content-title"><a href="${`/#/detail/${restaurants.id}`}">${restaurants.name} <br> (Klik untuk detail)</a></div>
 </div>
 </article>
   `;
