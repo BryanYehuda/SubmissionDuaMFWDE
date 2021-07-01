@@ -36,6 +36,7 @@
     },
     "dependencies": {
         "css-loader": "^3.6.0",
+        "idb": "^6.1.2",
         "regenerator-runtime": "^0.13.7",
         "serviceworker-webpack-plugin": "^1.0.1",
         "style-loader": "^1.2.1"
