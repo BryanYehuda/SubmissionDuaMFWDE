@@ -34,7 +34,7 @@ const createRestaurantItemTemplate = (restaurants) => `
       <div class="content-rating">Rating : ${restaurants.rating}</div>
       <div class="content-location">Lokasi : ${restaurants.city}</div>
     </p>
-  <div class="content-title"><a href="${`/#/detail/${restaurants.id}`}">${restaurants.name} <br> (Klik untuk detail)</a></div>
+  <div class="content-title"><a class="btn btn-full" href="${`/#/detail/${restaurants.id}`}">${restaurants.name}</a></div>
 </article>
   `;
 
