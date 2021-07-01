@@ -85,6 +85,12 @@
     .content-location-detail {
         font-size: 22px;
     }
+    .content-address-detail {
+        font-size: 22px;
+    }
+    .content-category-detail {
+        font-size: 22px;
+    }
     .content-title {
         font-size: 27px;
     }
@@ -171,6 +177,12 @@
     .content-location-detail {
         font-size: 23px;
     }
+    .content-address-detail {
+        font-size: 23px;
+    }
+    .content-category-detail {
+        font-size: 23px;
+    }
     .content-title {
         font-size: 25px;
     }
@@ -196,6 +208,12 @@
         font-size: 24px;
     }
     .content-location-detail {
+        font-size: 24px;
+    }
+    .content-address-detail {
+        font-size: 24px;
+    }
+    .content-category-detail {
         font-size: 24px;
     }
 }
@@ -227,6 +245,12 @@
     .content-location-detail {
         font-size: 26px;
     }
+    .content-address-detail {
+        font-size: 26px;
+    }
+    .content-category-detail {
+        font-size: 26px;
+    }
     .content-title {
         font-size: 24px;
     }
@@ -253,6 +277,14 @@
         display: block;
         font-size: 28px;
     }
+    .content-address-detail {
+        display: block;
+        font-size: 28px;
+    }
+    .content-category-detail {
+        display: block;
+        font-size: 28px;
+    }
     .content-title {
         font-size: 26px;
     }
@@ -275,6 +307,12 @@
         font-size: 29px;
     }
     .content-location-detail {
+        font-size: 29px;
+    }
+    .content-address-detail {
+        font-size: 29px;
+    }
+    .content-category-detail {
         font-size: 29px;
     }
     .content-title {
