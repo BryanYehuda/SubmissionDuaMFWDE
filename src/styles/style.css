@@ -129,6 +129,7 @@ DRAWER
 #menu {
     font-size: 30px;
     color: #fff;
+    background-color: transparent;
     position: absolute;
     transform: translate(15px, 0);
 }
