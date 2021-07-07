@@ -27,7 +27,7 @@ const createRestaurantDetailTemplate = (restaurants) => `
 `;
 
 const createRestaurantItemTemplate = (restaurants) => `
-<article class="content-item ${restaurants.Id}" id="maincontent">
+<article class="content-item ${restaurants.Id}">
   <img class="content-thumbnail" src="${CONFIG.BASE_IMAGE_URL + restaurants.pictureId}" alt="${restaurants.name}">
   <div class="content-paragraph">
     <p>

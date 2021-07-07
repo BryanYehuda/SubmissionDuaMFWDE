@@ -10,7 +10,6 @@ class DicodingDB {
   static async DetailRestaurant(id) {
     const response = await fetch(API_ENDPOINT.DETAIL(id));
     const responseJson = await response.json();
-    console.log(responseJson.restaurant); // Opsional, hanya untuk cek data di konsol.
     return responseJson.restaurant;
   }
 }
