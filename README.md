@@ -1,7 +1,7 @@
-# SubmissionSatuMFWDE
+# Submission Dua MFWDE
 
 ## English
-### This is a repository for storing code that will be used in the submission of one in the "Becoming a Front-End Web Developer Expert" class from Dicoding.
+### This is a repository for storing code that will be used in the submission of two in the "Becoming a Front-End Web Developer Expert" class from Dicoding.
 
 #### In this class we will learn:
 - Responsive Layout with Mobile First Approach: Applying a responsive layout using a grid system, media queries, off screen canvas, and other small things that can increase display responsiveness. In the implementation, we will use a mobile-first approach.
@@ -30,7 +30,7 @@ This repository has **MIT License.**
 This license allows the user to make any changes to the program code. This license only requires the user to include the license and author's copyright in the redistributed code and there is no prohibition against using the trademark of the original author. In addition, the user also has no right to sue the manufacturer when there is damage to the software.
 
 ## Bahasa
-### Ini adalah repository untuk menyimpan kode yang akan digunakan dalam submission satu dalam kelas "Menjadi Front-End Web Developer Expert" dari Dicoding
+### Ini adalah repository untuk menyimpan kode yang akan digunakan dalam submission dua dalam kelas "Menjadi Front-End Web Developer Expert" dari Dicoding
 
 #### Di kelas ini kita akan belajar:
 - Responsive Layout with Mobile First Approach : Menerapkan layout yang responsif dengan menggunakan sistem grid, media query, off screen canvas, serta hal-hal kecil lain yang dapat meningkatkan responsibilitas tampilan. Pada implementasinya, kita akan menggunakan pendekatan mobile-first.
